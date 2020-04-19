@@ -4,4 +4,4 @@ function findAddends(list) {
     return list.some((el, i, arr) => arr.indexOf(k-el) > -1);
 }
 
-console.log(findAddends(input));
+console.assert(findAddends(input) === true);
